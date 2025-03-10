@@ -20,6 +20,14 @@ a {
     padding: 10px;
     display: block;
     text-align: center;
-    margin: 10px;
+    margin: 10px 80px 10px 80px;
     color: slateblue;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    background-color: #e0e0e0;
+    color: darkslateblue;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
 }
